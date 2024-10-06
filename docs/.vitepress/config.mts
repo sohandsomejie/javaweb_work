@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: "./",
+  base: "/",
   title: "我的Javaweb作业",
   description: "Javaweb作业",
   themeConfig: {
