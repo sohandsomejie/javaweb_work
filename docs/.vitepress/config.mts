@@ -8,18 +8,29 @@ export default defineConfig({
   themeConfig: {
     logo: "/logo.png",
     // https://vitepress.dev/reference/default-theme-config
+    search: {
+      provider: 'local'
+    },
     nav: [
       { text: '首页', link: '/' },
-      { text: '作业', items: [
-        { text: '作业一', link: '/homework/homework1' },
-        { text: '作业二', link: '/homework/homework2' },
-        { text: '作业三', link: '/homework/homework3' },
-        { text: '作业四', link: '/homework/homework4' },
-        { text: '作业五', link: '/homework/homework5' }
-      ] }
+      { text: '作业', link: '/work/work01' }
     ],
 
     sidebar: [
+      {
+        text:"作业",
+        items: [
+          { text: '01-会话技术', link: '/work/work01' },
+          { text: '02-filter', link: '/work/work02' },
+          { text: '03-listener', link: '/work/work03' },
+          { text: '作业4', link: '/work/work04' },
+          { text: '作业5', link: '/work/work05' },
+          { text: '作业6', link: '/work/work06' },
+          { text: '作业7', link: '/work/work07' },
+          { text: '作业8', link: '/work/work08' },
+        ]
+      }
+      ,
       {
         text: 'Examples',
         items: [
@@ -30,7 +41,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/sohandsomejie/javaweb_work' }
     ]
     ,
   footer: {

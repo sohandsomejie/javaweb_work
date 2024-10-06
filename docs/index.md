@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 快速食用
-      link: /markdown-examples
+      link: /work/work01
     - theme: alt
       text: API Examples
       link: /api-examples
