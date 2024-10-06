@@ -1,0 +1,4 @@
+# 忽略整个目录
+node_modules/
+docs/.vitepress/cache/
+docs/.vitepress/dist/
