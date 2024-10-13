@@ -26,7 +26,6 @@
    - 继续执行过滤链中的下一个过滤器或目标资源。
    - 最后输出过滤器执行结束的信息 “LoginFilter 执行过滤结束”。
 
-
 ## 2. 代码
 
 ``` java
@@ -88,4 +87,5 @@ public class LoginFilter implements Filter {
         System.out.println("LoginFilter 执行过滤结束");
     }
 } 
-``` 
+
+```
