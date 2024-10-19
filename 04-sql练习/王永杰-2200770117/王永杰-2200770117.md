@@ -5,7 +5,7 @@
 ## 2. 代码
 
 ```sql
-    --  1. 查询所有员工的姓名、邮箱和工作岗位。
+--  1. 查询所有员工的姓名、邮箱和工作岗位。
 select  CONCAT(first_name, ' ', last_name) name, email,departments.dept_name
 from employees
 join departments on employees.dept_id = departments.dept_id;
@@ -355,7 +355,6 @@ ORDER BY dept_id, rn;
 
 -- 50. 查询所有项目的信息,包括项目名称、负责人姓名(假设工资最高的为负责人)、开始日期和结束日期。
 
--- 49. 查询每个项目的最高工资员工
 WITH MaxSalary AS (
     SELECT
         p.project_id,
