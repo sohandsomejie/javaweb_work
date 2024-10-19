@@ -23,7 +23,7 @@ export default defineConfig({
           { text: '01-会话技术', link: '/work/work01' },
           { text: '02-filter', link: '/work/work02' },
           { text: '03-listener', link: '/work/work03' },
-          { text: '作业4', link: '/work/work04' },
+          { text: '04-sql练习', link: '/work/work04' },
           { text: '作业5', link: '/work/work05' },
           { text: '作业6', link: '/work/work06' },
           { text: '作业7', link: '/work/work07' },
