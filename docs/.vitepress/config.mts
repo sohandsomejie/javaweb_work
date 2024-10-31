@@ -24,7 +24,7 @@ export default defineConfig({
           { text: '02-filter', link: '/work/work02' },
           { text: '03-listener', link: '/work/work03' },
           { text: '04-sql练习', link: '/work/work04' },
-          { text: '作业5', link: '/work/work05' },
+          { text: '05-jdbc练习（使用mybatis）', link: '/work/work05' },
           { text: '作业6', link: '/work/work06' },
           { text: '作业7', link: '/work/work07' },
           { text: '作业8', link: '/work/work08' },
